@@ -1,0 +1,110 @@
+@charset "utf-8";
+@import url("font.css");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline-style: none;
+}
+ul {
+    list-style: none;
+}
+a {
+    columns: #000;
+    text-decoration: none;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+}
+html {
+    font-size: 16px;
+    background: #000;
+}
+body {
+    font-family: "D-DIN", sans-serif;
+    color: #000;
+    line-height: 1.4;
+    word-break: keep-all;
+    width: 100%;
+    user-select: none;
+}
+/* 공용클래스 */
+.inner {
+    position: relative;
+    max-width: 1400px;
+    height: 850px;
+    margin: 0 auto;
+}
+.left-bottom {
+    position: absolute;
+    left: 50px;
+    bottom: 15%;
+    text-align: left;
+    width: 50%;
+    max-width: 520px;
+}
+
+.left-bottom p {
+    font-size: 20px;
+    line-height: 38px;
+    color: #fff;
+}
+.left-bottom h1 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+.left-bottom a {
+    margin-top: 30px;
+    display: inline-block;
+    border: solid 2px #fff;
+    width: 160px;
+    min-width: 130px;
+    height: 55px;
+    font-size: 14px;
+    line-height: 55px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+/* header */
+
+/* sction */
+.section-1 {
+    background: url("../images/section_1.jpeg") no-repeat center / cover;
+}
+
+.section-2 {
+    background: url("../images/section_2.jpeg") no-repeat center / cover;
+}
+
+.section-3 {
+    background: url("../images/section_3.jpeg") no-repeat center / cover;
+}
+/* footer */
+.footer {
+    padding: 20px 0;
+}
+.footer p {
+    text-align: center;
+}
+.footer span {
+    font-size: 12px;
+    margin: 0 20px;
+    color: #fff;
+}
+.footer a {
+    display: inline;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 20px;
+    opacity: 1;
+    transition: opacity 0.8s;
+}
+.footer a:hover {
+    opacity: 0.6;
+}

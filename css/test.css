@@ -1,0 +1,48 @@
+@font-face {
+    font-family: d-din;
+    font-style: normal;
+    font-weight: 400;
+    src: local("D-DIN"), url(https://fonts.cdnfonts.com/s/23112/D-DIN.woff) format("woff");
+}
+@font-face {
+    font-family: d-din;
+    font-style: italic;
+    font-weight: 400;
+    src: local("D-DIN"), url(https://fonts.cdnfonts.com/s/23112/D-DIN-Italic.woff) format("woff");
+}
+@font-face {
+    font-family: d-din;
+    font-style: normal;
+    font-weight: 700;
+    src: local("D-DIN"), url(https://fonts.cdnfonts.com/s/23112/D-DIN-Bold.woff) format("woff");
+}
+@font-face {
+    font-family: d-din condensed;
+    font-style: normal;
+    font-weight: 400;
+    src: local("D-DIN Condensed"), url(https://fonts.cdnfonts.com/s/23112/D-DINCondensed.woff) format("woff");
+}
+@font-face {
+    font-family: d-din exp;
+    font-style: normal;
+    font-weight: 400;
+    src: local("D-DIN Exp"), url(https://fonts.cdnfonts.com/s/23112/D-DINExp.woff) format("woff");
+}
+@font-face {
+    font-family: d-din exp;
+    font-style: italic;
+    font-weight: 400;
+    src: local("D-DIN Exp"), url(https://fonts.cdnfonts.com/s/23112/D-DINExp-Italic.woff) format("woff");
+}
+@font-face {
+    font-family: d-din condensed;
+    font-style: normal;
+    font-weight: 700;
+    src: local("D-DIN Condensed"), url(https://fonts.cdnfonts.com/s/23112/D-DINCondensed-Bold.woff) format("woff");
+}
+@font-face {
+    font-family: d-din exp;
+    font-style: normal;
+    font-weight: 700;
+    src: local("D-DIN Exp"), url(https://fonts.cdnfonts.com/s/23112/D-DINExp-Bold.woff) format("woff");
+}
