@@ -10,7 +10,7 @@ ul {
     list-style: none;
 }
 a {
-    columns: #000;
+    color: #fff;
     text-decoration: none;
 }
 img {
@@ -70,7 +70,52 @@ body {
     text-align: center;
 }
 /* header */
-
+.header {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    z-index: 9999;
+}
+.header-inner {
+    position: relative;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.logo {
+    position: absolute;
+    top: 32px;
+    left: 50px;
+    width: 210px;
+}
+.logo svg {
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.gnb {
+    position: absolute;
+    left: 285px;
+    top: 38px;
+    height: 30px;
+}
+.gnb ul {
+    display: flex;
+    gap: 30px;
+}
+.gnb ul li a {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.shop {
+    position: absolute;
+    top: 38px;
+    right: 95px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 28px;
+}
 /* sction */
 .section-1 {
     background: url("../images/section_1.jpeg") no-repeat center / cover;
