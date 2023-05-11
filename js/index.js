@@ -12,6 +12,10 @@ AOS.init();
 // });
 
 let burger = document.querySelector(".menu-trigger");
+let sideWrap = document.querySelector(".side-wrap");
+let sideGnb = document.querySelector(".side-gnb");
 burger.addEventListener("click", function () {
     burger.classList.toggle("active-1");
+    sideWrap.classList.toggle("side-wrap-active");
+    sideGnb.classList.toggle("side-gnb-active");
 });
