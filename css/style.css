@@ -38,7 +38,7 @@ body {
 .inner {
     position: relative;
     max-width: 1400px;
-    height: 850px;
+    height: 100%;
     margin: 0 auto;
 }
 .left-bottom {
@@ -115,13 +115,15 @@ body {
     position: relative;
     width: 100%;
     max-width: 1400px;
+    height: 100%;
     margin: 0 auto;
 }
 .logo {
     position: absolute;
-    top: 32px;
+    top: 50%;
     left: 50px;
     width: 210px;
+    transform: translateY(-50%);
 }
 .logo svg {
     width: 100%;
@@ -225,7 +227,7 @@ body {
     position: fixed;
     top: 100%;
     width: 100%;
-    height: 100%;
+    height: 0;
     background: rgba(0, 0, 0, 0.6);
     z-index: 11;
     opacity: 0;
@@ -233,6 +235,7 @@ body {
 }
 .side-wrap-active {
     top: 0;
+    height: 100%;
     opacity: 1;
     transition: opacity 0.5s;
 }
@@ -240,7 +243,7 @@ body {
     position: fixed;
     right: -350px;
     width: 350px;
-    height: 100%;
+    height: 0;
     background: #000;
     z-index: 12;
     position: all 0.5s;
@@ -248,6 +251,7 @@ body {
 }
 .side-gnb-active {
     right: 0;
+    height: 100%;
     transition: all 0.5s;
 }
 .side-gnb ul {
@@ -302,4 +306,34 @@ body {
 }
 .footer a:hover {
     opacity: 0.6;
+}
+
+@media screen and (max-width: 1220px) {
+    .gnb ul {
+        gap: 15px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .header {
+        height: 60px;
+    }
+    .gnb ul {
+        display: none;
+    }
+    .logo {
+        left: 50%;
+        width: 150px;
+        transform: translateX(-50%);
+    }
+    .shop {
+        display: none;
+    }
+    .footer span {
+        display: block;
+        margin-bottom: 26px;
+    }
+    .left-bottom h1g {
+        font-size: 36px;
+        line-height: 36px;
+    }
 }
