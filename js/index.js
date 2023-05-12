@@ -20,7 +20,7 @@ window.addEventListener("scroll", function () {
     sideGnb.classList.remove("side-gnb-active");
 });
 let lastScroll = document.documentElement.scrollTop || 0;
-document.addventListener("scroll", function () {
+document.addEventListener("scroll", function () {
     let scrollTop = document.documentElement.scrollTop;
     if (scrollTop > lastScroll) {
         header.classList.add("header-active");
