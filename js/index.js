@@ -38,7 +38,6 @@ window.onload = function () {
             data = JSON.parse(req.response);
             makeSection();
             AOS.init();
-            console.log(req.response);
         }
     };
     Xhttp.open("GET", "section.json");
